@@ -19,7 +19,6 @@ Load
 ```md
 libraries 폴더에 복사했기 때문에 CI의 방법으로 로드.
 $this->load->library("PHPExcel");
-
 ```
 
 Upload
@@ -140,6 +139,7 @@ $objPHPExcel->getActiveSheet()->setTitle($excelTitle);
 // Set active sheet index to the first sheet, so Excel opens this as the first sheet
 $objPHPExcel->setActiveSheetIndex(0);
 
+/* 익스플로러에서 UTF-8로 한글깨짐현상이 발생. */
 $excelTitle = iconv('UTF-8', 'EUC-KR', $excelTitle);
 // Redirect output to a client’s web browser (Excel5)
 header('Content-Type: application/vnd.ms-excel');
