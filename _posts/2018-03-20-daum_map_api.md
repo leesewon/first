@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: post
 title: Daum Map Api
 ---
 

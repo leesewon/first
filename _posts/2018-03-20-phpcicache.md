@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: post
 title: PHP-Ci-Cache 
 ---
 php ci cache는 기본적으로 ci에서 제공하는 기능으로

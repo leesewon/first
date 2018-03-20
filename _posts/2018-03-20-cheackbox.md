@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: post
 title: Javascript - cheackbox 
 ---
 
